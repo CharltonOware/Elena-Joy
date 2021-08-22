@@ -34,14 +34,6 @@ html {
     --gray-text: #525252;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-h1 {
-    font-size: var(--header1);
-}
-
 li,
 button,
 label,
@@ -63,6 +55,14 @@ h4,h5 {
     font-size: var(--header4);
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Reusable code section as a helper class */
 .flex {
     display: flex;
@@ -71,10 +71,12 @@ h4,h5 {
     align-items: center;
 }
 
-ul {
-    list-style: none;
+body {
+    font-family: "Ruhl", sans-serif;
 }
 
-a {
-    text-decoration: none;
+
+h1 {
+    font-size: var(--header1);
+    font-family: 'Vibes', sans-serif;
 }
