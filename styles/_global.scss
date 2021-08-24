@@ -84,3 +84,8 @@ body {
     font-family: "Ruhl", sans-serif;
     animation: opening 1s ease-in-out;
 }
+
+button:focus {
+    background: $background-color;
+    color: white;
+  }

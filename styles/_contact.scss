@@ -1,0 +1,48 @@
+/* CONTACT SECTION */
+
+.contact {
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        flex: 1 1 40rem;
+    }
+}
+
+.form-wrapper {
+    flex: 3 1 40rem;
+
+    h2 {
+        margin: 5rem 0rem;
+    }
+
+    span {
+        font-size: $big;
+        color: $special-color;
+    }
+
+    label {
+        display: block;
+    }
+
+    input {
+        display: block;
+        margin: 3rem 0rem;
+        background: $background-color;
+        color: white;
+        border: none;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    button {
+        padding: 1rem 8rem;
+        background: $special-color;
+        color: white;
+        border: none;
+        width: 100%;
+    
+    }
+}
+ 
